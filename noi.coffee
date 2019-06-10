@@ -7,7 +7,7 @@ HubotSlack = require 'hubot-slack'
 noiChannelName = ""
 omnibusConnection = omnibus.createConnection(
 	host: process.env.HUBOT_OMNIBUS_HOST
-	port: '8080'
+	port: '7070'
 	user: process.env.HUBOT_OMNIBUS_USER
 	password: process.env.HUBOT_OMNIBUS_PASSWORD)
 
