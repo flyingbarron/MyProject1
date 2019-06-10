@@ -1,28 +1,3 @@
-
-Skip to content
-Pull requests
-Issues
-Marketplace
-Explore
-@RobertJBarron
-
-5
-0
-
-    1
-
-ibm-cloud-architecture/2019-Think-5559
-Code
-Issues 1
-Pull requests 1
-Projects 0
-Wiki
-Security
-Insights
-Settings
-2019-Think-5559/bot/noi.1.coffee
-@RobertJBarron RobertJBarron Think 2019 959cbce on Feb 15
-36 lines (29 sloc) 1.28 KB
 console.log ('Omnibus = ' + process.env.HUBOT_OMNIBUS_HOST)
 
 omnibus = require('node-omnibus')
@@ -58,17 +33,4 @@ module.exports = (robot) ->
 			else
 				msg.send "Event de-acknowledged"
 
-    © 2019 GitHub, Inc.
-    Terms
-    Privacy
-    Security
-    Status
-    Help
-
-    Contact GitHub
-    Pricing
-    API
-    Training
-    Blog
-    About
-
+    
